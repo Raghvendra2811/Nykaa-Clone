@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <style>
+    #box{
+        
+        width: 30%;
+        border: solid teal 2px;
+        margin: auto;
+        height: 500px;
+        margin-top: 100px;
+        background-color:teal;
+      
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+    p+div{
+        margin-top: 50px;
+        display: grid;
+        gap: 15px;
+    }
+   
+   input, input~button{
+        height: 50px;
+        margin-left: 40px;
+        margin-right: 40px;
+        padding-left: 10px;
+        border: none;
+    }
+    p{
+        text-align: center;
+        font-size: 30px;
+    }
+    input+button{
+        margin-bottom: -8px;
+    }
+    button{
+        background-color: aqua;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <p>- Visitor -</p>
+        <div id="input">
+            <input type="text" placeholder="Full name" id="name" required/>   
+            <input type="text" placeholder="Email" id="email" required/> 
+            <input type="text" placeholder="Organization" id="oraganization" required/>
+            <button ><a href="">SIGN UP</a></button>
+            <button ><a href="">RETURN<a></a></button>
+        </div>
+    </div>
+</body>
+</html>
