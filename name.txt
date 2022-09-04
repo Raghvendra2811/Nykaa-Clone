@@ -1,0 +1,9 @@
+Team Name: Nykaa-Clone;
+
+Team Members{
+    1.Raghvendra Singh
+    2.Ankit Rana
+    3.Ayush Singh
+    4.Shivani Kumari
+    5.Aditi Kashyap
+}
