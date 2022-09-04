@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Masai Navbar</title>
+    <style>
+      #header {
+        display: flex;
+
+        /* border: 3px black solid; */
+        margin: auto 5px;
+        justify-content: center;
+        flex-wrap: wrap;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 13px 0px 13px 0px;
+      }
+      #header-part1 {
+        display: flex;
+        align-content: center;
+      }
+
+      #header-part1 img {
+        margin: 5px 3px;
+      }
+      #header-part2 {
+        /* border: 3px brown solid; */
+        width: 880px;
+      }
+      #header-part3 {
+        /* border: 3px yellow solid; */
+        width: 300px;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+      }
+      #header-part2 > ul > li > a {
+        text-decoration: none;
+        color: black;
+      }
+      #header-part2 > ul > li > a:hover {
+        background-color: #e0bfbf;
+        color: red;
+      }
+      #header-part2 > ul > li {
+        list-style: none;
+        margin: auto 18px;
+        padding: 3px 3px;
+      }
+      #header-part2 > ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      #header-part3 > .refer {
+        text-decoration: none;
+        margin: auto;
+        display: inline-flex;
+        align-items: center;
+        border-radius: 4px;
+      }
+      #header-part3 > .login p {
+        text-decoration: none;
+        margin: auto;
+        text-align: center;
+        display: inline;
+        padding: 11px 33px;
+        border-radius: 5px;
+        border: 1px red solid;
+      }
+      #header-part3 > a > button {
+        width: 87px;
+        height: 32px;
+        background-color: white;
+        color: red;
+        margin-right: 3px;
+        border-radius: 3px;
+        border-color: red;
+      }
+      #header-part3 > .refer:hover {
+        background-color: #ddebf0;
+      }
+      #header-part3 > .login button:hover {
+        background-color: #d3dde0;
+      }
+      #header-part3 > .refer > img {
+        width: 44px;
+        display: block;
+      }
+      #header-part3 > .refer > p {
+        display: inline;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <div id="header-part1">
+        <a href="https://masaischool.com">
+          <img src="https://www.masaischool.com/img/navbar/logo.svg" alt="" />
+        </a>
+      </div>
+      <div id="header-part2">
+        <ul>
+          <li>
+            <a
+              href="https://www.masaischool.com/courses/full-stack-web-dev-full-time/"
+              target="_blank"
+              >COURSES</a
+            >
+          </li>
+          <li>
+            <a href="https://www.masaischool.com/fees/" target="_blank"
+              >FEES & ISA</a
+            >
+          </li>
+          <li>
+            <a href="https://www.masaischool.com/about/" target="_blank"
+              >ABOUT US</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.masaischool.com/hire-masai-grads/"
+              target="_blank"
+              >HIRE FROM US</a
+            >
+          </li>
+          <li>
+            <a href="https://www.masaischool.com/faq/#general." target="_blank"
+              >FAQ</a
+            >
+          </li>
+          <li>
+            <a href="https://www.masaischool.com/events/" target="_blank"
+              >EVENTS</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div id="header-part3">
+        <a
+          class="refer"
+          href="https://www.masaischool.com/referral"
+          target="_blank"
+        >
+          <p>REFER & EARN</p>
+          <img src="https://www.masaischool.com/img/referral/hand.png" />
+        </a>
+        <a
+          class="login"
+          href="https://sso.masaischool.com/signin/?returnTo=https://dashboard.masaischool.com/#/"
+        >
+          <button>LOGIN</button>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
